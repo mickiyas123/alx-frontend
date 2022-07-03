@@ -28,6 +28,7 @@
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
+    --section-tagline-margin: 0;
     --footer-padding: 5rem 0 1rem;
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
@@ -36,7 +37,6 @@
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0; 
     --nav-item-link-hover: var(--color-primary);
-    --section-tagline-margin: 0;
 }
 
 *, *:before, *:after {
@@ -140,7 +140,7 @@ a:active {
     margin: var(--section-tagline-margin);
 }
 
-.row ul li {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -181,6 +181,6 @@ a:active {
     color: var(--text-color);
 }
 
-.footer ul li {
+.footer ul {
     text-align: right;
 }
