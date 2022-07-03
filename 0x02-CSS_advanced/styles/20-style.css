@@ -158,6 +158,7 @@ ul.row {
 }
 
 .row::after {
+    content: '';
     display: table;
 }
 
