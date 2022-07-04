@@ -178,7 +178,7 @@ ul.row {
     margin-right: auto;
 }
 
-.card-services .card-title {
+.card-services > .card-title {
     margin: 0;
 }
 
