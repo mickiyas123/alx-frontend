@@ -180,7 +180,7 @@ a:active {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -202,7 +202,7 @@ a:active {
 .card-work .card-title {
     text-align: center;
     margin: 0;
-    opacity: 0.0;
+    opacity: 0;
     height: 100%;
     position: relative;
 }
@@ -221,7 +221,7 @@ a:active {
     content: "";
 }
 
-.card-work:hover .card-work{
+.card-work:hover .card-title{
     opacity: 1;
 }
 
