@@ -178,11 +178,19 @@ ul.row {
     margin-right: auto;
 }
 
-.card-services .card-title {
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    color: var(--section-title-color);
+    margin: var(--section-title-margin);
+}
+
+.card-title .card-services {
     margin: 0;
 }
 
-.card-services  a {
+.card-services a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
@@ -192,14 +200,6 @@ ul.row {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
-}
-
-.section-title {
-    font-family: var(--font-family-title);
-    font-size: var(--font-size-xx-large);
-    font-weight: var(--font-weight-bold);
-    color: var(--section-title-color);
-    margin: var(--section-title-margin);
 }
 
 .footer {
