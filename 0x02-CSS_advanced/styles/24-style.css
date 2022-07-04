@@ -182,7 +182,7 @@ ul.row {
     margin: 0;
 }
 
-.card-services .card-title a {
+.card-title  a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
