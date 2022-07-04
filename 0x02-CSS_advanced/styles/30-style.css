@@ -221,7 +221,7 @@ a:active {
     content: "";
 }
 
-.card-work:hover .card-title{
+.card-work:hover .card-title {
     opacity: 1;
 }
 
