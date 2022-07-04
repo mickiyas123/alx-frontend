@@ -178,11 +178,11 @@ ul.row {
     margin-right: auto;
 }
 
-.card-services > .card-title {
+.card-services .card-title {
     margin: 0;
 }
 
-.card-services  a {
+.card-services .card-title > a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
