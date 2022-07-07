@@ -177,6 +177,10 @@
     white-space: nowrap;
   }
   
+  main img {
+    width: 100%;
+    height: auto;
+  }
   /*** 2. LAYOUT ***/
   
   /* Layout
@@ -222,7 +226,7 @@
 
     ul.row, row {
       flex-direction: column;
-      margin: o;
+      margin: 0;
     }
 
     [class*='col-'] {

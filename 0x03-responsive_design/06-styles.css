@@ -176,6 +176,11 @@
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
   }
+
+  main img {
+    width: 100%;
+    height: auto;
+  }
   
   /*** 2. LAYOUT ***/
   
@@ -322,7 +327,7 @@
     padding: 2.5rem;
     position: relative;
     user-select: none;
-    display: no;
+    display: none;
   }
 
   .header .menu-icon .navicon {

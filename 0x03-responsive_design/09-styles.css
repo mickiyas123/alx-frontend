@@ -178,6 +178,7 @@
     }
   }
   
+  
   /* Helpers
       ============================= */
   
@@ -188,6 +189,11 @@
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
   }
   
   /*** 2. LAYOUT ***/
@@ -335,7 +341,7 @@
     padding: 2.5rem;
     position: relative;
     user-select: none;
-    display: no;
+    display: none;
   }
 
   .header .menu-icon .navicon {
@@ -606,8 +612,12 @@
     opacity: 1;
   }
 
+  .card-work:hover .card-title {
+    opacity: 1;
+  }
+
   @media (max-width: 767px) {
-   .card-inner .card-work {
+    .card-work .card-inner{
     color: var(--color-white);
     position: relative;
    }
@@ -615,7 +625,7 @@
    .card-work .card-title {
     opacity: 1;
    }
-   .card-work .card-title a{
+   .card-work .card-title a {
     padding: 2rem 1rem 0 1rem;
    }
   }
